@@ -187,7 +187,7 @@ mainmenu = MainMenu.new
 
 update do
   mainmenu.update
-  game_scene.update unless game_scene.nil?  # Only call update if game_scene is not nil
+  game_scene.update unless game_scene.nil?
 end
 
 show
